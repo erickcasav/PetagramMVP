@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="cardview_nombre_mascota">Nombre</string>
+    <string name="cardview_cantidad_like">0</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_contact">Contacto</string>
+    <string name="perfil_nombre_mascota">Princeso</string>
+    <string name="contacto_nombre">Nombre</string>
+    <string name="contacto_correo">Correo</string>
+    <string name="contacto_mensaje">Mensaje</string>
+    <string name="correo_boton_enviar_comentario">Enviar comentario</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

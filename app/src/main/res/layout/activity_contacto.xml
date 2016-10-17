@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.erickcasav.petagrammvp.Contacto">
+
+    <include android:id="@+id/miActionBarContacto"
+        layout="@layout/actionbar"
+        ></include>
+
+    <LinearLayout
+        android:layout_below="@id/miActionBarContacto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/contacto_separacion_campo"
+            android:paddingLeft="@dimen/contacto_separacion_campo"
+            android:paddingRight="@dimen/contacto_separacion_campo">
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contacto_nombre"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/contacto_separacion_campo"
+            android:paddingLeft="@dimen/contacto_separacion_campo"
+            android:paddingRight="@dimen/contacto_separacion_campo"
+            >
+            <EditText
+                android:id="@+id/etCorreo"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contacto_correo"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/contacto_separacion_campo"
+            android:paddingLeft="@dimen/contacto_separacion_campo"
+            android:paddingRight="@dimen/contacto_separacion_campo">
+            <EditText
+                android:id="@+id/etMensaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:scrollbars="vertical"
+                android:hint="@string/contacto_mensaje"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+   <Button
+       android:id="@+id/btnEnviarComentario"
+       android:paddingLeft="@dimen/contacto_separacion_campo"
+       android:paddingRight="@dimen/contacto_separacion_campo"
+       android:layout_alignParentBottom="true"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/correo_boton_enviar_comentario"
+       android:theme="@style/BotonTheme"
+        />
+
+</RelativeLayout>

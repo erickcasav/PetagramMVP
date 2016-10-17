@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="cardview_mascota_radio">4dp</dimen>
+    <dimen name="cardview_mascota_padding">7dp</dimen>
+    <dimen name="cardview_image_size_hueso">36dp</dimen>
+    <dimen name="cardview_nombre_tamano">22dp</dimen>
+    <dimen name="cardview_padding_nombre">15dp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="cardview_perfil_cantidad">35sp</dimen>
+    <dimen name="cardview_image_size_hueso_perfil">50dp</dimen>
+    <dimen name="contacto_separacion_campo">15dp</dimen>
+    <dimen name="mascota_perfil_tamano_foto">120dp</dimen>
+</resources>
